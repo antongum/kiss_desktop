@@ -1,0 +1,23 @@
+[package]
+name = "kiss-desktop"
+version = "0.1.0"
+authors = ["ANG"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+dioxus-desktop = { version = "0.4" }
+dioxus = { version = "0.4" }
+
+dioxus-router = { version = "0.4" }
+
+# Debug
+log = "0.4.19"
+dioxus-logger = "0.4.1"
+image = "0.24.7"
+regex = "1.10.2"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+reqwest = { version = "0.11.22", features = ["json"] }
